@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    margin: 80px;
+}
+
+.promotoria {
+    color: red;
+    font-weight: bold;
+    display: block;
+    margin: 50px;
+}
+
+.administrador {
+    margin: 50px;
+    text-justify: auto;
+}
+
+body {
+    background-color: lightblue;
+  }
+
+  
