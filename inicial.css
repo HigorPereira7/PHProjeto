@@ -1,22 +1,65 @@
 h1 {
     text-align: center;
-    margin: 80px;
+    margin-top: 20px;  
 }
 
-.promotoria {
-    color: red;
-    font-weight: bold;
-    display: block;
-    margin: 50px;
-}
-
+.promotoria,
 .administrador {
-    margin: 50px;
-    text-justify: auto;
+    display: block;
+    width: 500px;  
+    height: 70px;  
+    margin: 10px auto;  
+    font-size: 20px;  
+    text-align: center;
+    border-radius: 5px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+    text-decoration: none;  
+}
+.promotoria:hover,
+.administrador:hover {
+    background-color: #0056b3;  
+}
+
+a {
+    display: block;
+    text-decoration: none;  
+    width: 100%;  
+    height: 100%;  
+}
+html, body {
+    height: 100%;  
+    margin: 0;
 }
 
 body {
-    background-color: lightblue;
-  }
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;
+    height: 100vh;  
+    margin: 0;
+    padding: 0;
+}
 
-  
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    width: 100%;  
+    position: absolute;
+    top: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
