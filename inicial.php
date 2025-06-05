@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promotores de venda</title>
-    <link rel="stylesheet" href="inicial.css">
-</head>
-
-<body>
-    <header>
-        <h1>Bem-Vindo!</h1>
-    </header>
-
-    <a class="promotoria" href="promotoria.php">
-        <button type="button">Clique AQUI para acessar promotoria</button>
-    </a>
-    <br>
-    <a class="administrador" href="administrador.php">
-        <button type="button">Clique AQUI para acessar administração</button>
-    </a>
-
-    
-</body>
-</html>
+<?php include 'cabecalho.php'; ?>
+ 
+<h2>Bem-vindo ao Site da Promotoria</h2>
+<p>Escolha uma das opções abaixo:</p>
+ 
+<ul>
+<li><a href="administrador.php">Acessar área do Administrador</a></li>
+<li><a href="promotoria.php">Acessar área da Promotoria</a></li>
+</ul>
+ 
+<?php include 'rodape.php'; ?>
