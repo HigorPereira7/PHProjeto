@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>Site da Promotoria</title>
+<title>SIA</title>
 <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f2f2f2;}
         header { background-color: #004d99; color: white; padding: 20px; text-align: center; }
@@ -14,9 +14,9 @@
 </head>
 <body>
 <header>
-<h1>Site da Promotoria</h1>
+<h1>SIA</h1>
+<h3>Sistema de inteligência em ação<h3>
 <nav>
-<a href="inicial.php">Início</a>
 <a href="administrador.php">Administrador</a>
 <a href="promotoria.php">Promotoria</a>
 </nav>

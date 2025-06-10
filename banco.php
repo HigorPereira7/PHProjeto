@@ -12,3 +12,12 @@ $result = $conexao->query("SELECT * FROM Supervisor")->fetchAll();
    }   catch(PDOException $erro) {
     echo "ERRO =>" . $erro->GETmessage();
 }
+
+?>      
+
+<mysql
+CREATE TABLE administradores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL
+);
