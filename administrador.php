@@ -39,6 +39,9 @@ if (isset($_POST['cadastrar'])) {
         echo "<p style='color:red;'>Erro ao cadastrar: " . $e->getMessage() . "</p>";
     }
 }
-?>
 
+?>
+<a href="inicial.php" style="background-color: blue; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px;">
+  Início
+</a>
 <?php include 'rodape.php'; ?>
