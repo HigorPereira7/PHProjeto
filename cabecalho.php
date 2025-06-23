@@ -16,9 +16,5 @@
 <header>
 <h1>SIA</h1>
 <h3>Sistema de inteligência em ação<h3>
-<nav>
-<a href="administrador.php">Administrador</a>
-<a href="promotoria.php">Promotoria</a>
-</nav>
 </header>
 <main>
